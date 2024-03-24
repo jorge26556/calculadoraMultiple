@@ -1,0 +1,138 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #beb9b9;
+    gap: 2rem;
+  }
+  
+  .mode-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    opacity: 0;
+  }
+  
+  .mode-label {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 20px;
+    color: #fffefe;
+    cursor: pointer;
+  }
+  
+  .calculator {
+    width: 320px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .calculator.dark {
+    background-color: #333333;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 20px;
+  }
+  
+  h2.dark {
+    color: #ffffff;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group label {
+    display: block;
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #cccccc;
+    font-size: 16px;
+  }
+  
+  .button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .result {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #cccccc;
+  }
+  
+  .result p {
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 10px;
+  }
+  
+  .result p.dark {
+    color: #ffffff;
+  }
+  
+  .result span {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .result span.dark {
+    color: #ffffff;
+  }
+  .dark-mode .calculator {
+    background-color: #222222;
+  }
+  
+  .dark-mode h2 {
+    color: #ffffff;
+  }
+  
+  .dark-mode .input-group label {
+    color: #cccccc;
+  }
+  
+  .dark-mode .button {
+    background-color: #0056b3;
+  }
+  
+  .dark-mode .result p {
+    color: #ffffff;
+  }
+  
+  .dark-mode .result span {
+    color: #ffffff;
+  }
+  body.dark-mode {
+    background-color: #302f2f;
+  }
+  
+    
